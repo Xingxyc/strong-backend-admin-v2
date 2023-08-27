@@ -1,0 +1,2 @@
+com.strong.boot.framework.redis.config.StrongRedisAutoConfiguration
+com.strong.boot.framework.redis.config.StrongCacheAutoConfiguration

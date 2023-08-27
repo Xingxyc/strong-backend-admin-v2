@@ -1,0 +1,2 @@
+com.strong.boot.framework.tracer.config.StrongTracerAutoConfiguration
+com.strong.boot.framework.tracer.config.StrongMetricsAutoConfiguration

@@ -1,0 +1,2 @@
+com.strong.boot.framework.quartz.config.StrongQuartzAutoConfiguration
+com.strong.boot.framework.quartz.config.StrongAsyncAutoConfiguration

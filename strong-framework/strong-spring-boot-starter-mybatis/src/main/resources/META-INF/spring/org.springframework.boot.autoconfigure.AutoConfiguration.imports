@@ -1,0 +1,2 @@
+com.strong.boot.framework.datasource.config.StrongDataSourceAutoConfiguration
+com.strong.boot.framework.mybatis.config.StrongMybatisAutoConfiguration

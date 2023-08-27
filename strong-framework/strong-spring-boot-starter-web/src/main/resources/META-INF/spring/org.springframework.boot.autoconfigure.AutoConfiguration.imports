@@ -1,0 +1,6 @@
+com.strong.boot.framework.apilog.config.StrongApiLogAutoConfiguration
+com.strong.boot.framework.jackson.config.StrongJacksonAutoConfiguration
+com.github.xiaoymin.knife4j.spring.configuration.Knife4jAutoConfiguration
+com.strong.boot.framework.swagger.config.StrongSwaggerAutoConfiguration
+com.strong.boot.framework.web.config.StrongWebAutoConfiguration
+com.strong.boot.framework.xss.config.StrongXssAutoConfiguration

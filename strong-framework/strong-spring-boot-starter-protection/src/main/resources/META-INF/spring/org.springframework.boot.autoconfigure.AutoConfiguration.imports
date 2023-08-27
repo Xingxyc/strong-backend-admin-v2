@@ -1,0 +1,2 @@
+com.strong.boot.framework.idempotent.config.StrongIdempotentConfiguration
+com.strong.boot.framework.lock4j.config.StrongLock4jConfiguration
