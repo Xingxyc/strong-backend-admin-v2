@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.strong.boot</groupId>
+        <artifactId>strong-module-demo</artifactId>
+        <version>${revision}</version>
+    </parent>
+
+    <packaging>jar</packaging>
+    <artifactId>strong-module-demo-biz</artifactId>
+    <name>${project.artifactId}</name>
+
+    <description>
+        demo 模块，主要实现 XXX、YYY、ZZZ 等功能。
+    </description>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.strong.boot</groupId>
+            <artifactId>strong-module-demo-api</artifactId>
+            <version>${revision}</version>
+        </dependency>
+
+        <!-- 业务组件 -->
+        <dependency>
+            <groupId>com.strong.boot</groupId>
+            <artifactId>strong-spring-boot-starter-biz-operatelog</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.strong.boot</groupId>
+            <artifactId>strong-spring-boot-starter-biz-data-permission</artifactId>
+        </dependency>
+
+        <!-- Web 相关 -->
+        <dependency>
+            <groupId>com.strong.boot</groupId>
+            <artifactId>strong-spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.strong.boot</groupId>
+            <artifactId>strong-spring-boot-starter-security</artifactId>
+        </dependency>
+
+        <!-- DB 相关 -->
+        <dependency>
+            <groupId>com.strong.boot</groupId>
+            <artifactId>strong-spring-boot-starter-mybatis</artifactId>
+        </dependency>
+
+        <!-- Test 测试相关 -->
+        <dependency>
+            <groupId>com.strong.boot</groupId>
+            <artifactId>strong-spring-boot-starter-test</artifactId>
+        </dependency>
+
+        <!-- 工具类相关 -->
+
+        <dependency>
+            <groupId>com.strong.boot</groupId>
+            <artifactId>strong-spring-boot-starter-excel</artifactId>
+        </dependency>
+
+
+    </dependencies>
+
+
+</project>

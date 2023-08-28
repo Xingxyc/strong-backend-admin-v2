@@ -43,6 +43,12 @@
             <artifactId>strong-spring-boot-starter-biz-error-code</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>com.strong.boot</groupId>
+            <artifactId>strong-module-demo-biz</artifactId>
+            <version>${revision}</version>
+        </dependency>
+
 
         <!-- spring boot 配置所需依赖 -->
         <dependency>

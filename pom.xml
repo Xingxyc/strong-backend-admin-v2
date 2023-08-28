@@ -18,6 +18,7 @@
         <!-- 示例项目 -->
         <module>strong-example</module>
         <module>strong-module-bpm</module>
+        <module>strong-module-demo</module>
 
     </modules>
 
